@@ -1,0 +1,18 @@
+POST http://localhost:3000/additem.test.php
+Content-Type: application/x-www-form-urlencoded
+
+itemID=300
+&itemName=Gibson SG
+&categoryID=100
+&listPrice=2599.00
+###
+GET http://localhost:3000/listitems.test.php
+###
+POST http://localhost:3000/changeitem.test.php
+Content-Type: application/x-www-form-urlencoded
+
+
+itemID=___
+&itemName=___
+&categoryID=___
+&listPrice=___
