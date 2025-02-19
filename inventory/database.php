@@ -9,12 +9,12 @@
    try {
        $db = new mysqli($host, $username, $password, $dbname, $port);
        error_log("You are connected to the $host database!");
-       echo "You are connected to the $host database!";
+       // echo "You are connected to the $host database!";
        return $db;
    } catch (mysqli_sql_exception $e) {
        error_log($e->getMessage(), 0);
        echo $e->getMessage();
    }
  }
-  getDB();
+  // getDB();
 ?>

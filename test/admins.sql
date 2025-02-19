@@ -1,4 +1,4 @@
--- Active: 1738161775813@@sql1.njit.edu@3306@3306
+-- Active: 1738161775813@@sql1.njit.edu@3306
 -- Active: 1738161775813@@sql1.njit.edu@3306@cjt66-- Active: 1738161775813@@sql1.njit.edu@3306@cjt66-- Active: 1738161466719@@127.0.0.1@3306
 
 USE cjt66; 

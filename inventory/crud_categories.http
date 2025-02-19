@@ -1,0 +1,22 @@
+POST http://localhost:3000/addcategory.test.php
+Content-Type: application/x-www-form-urlencoded
+
+
+categoryID=ONE
+&categoryCode=GTR
+&categoryName=Guitars
+###
+GET http://localhost:3000/listcategories.test.php
+###
+POST http://localhost:3000/changecategory.test.php
+Content-Type: application/x-www-form-urlencoded
+
+
+categoryID=100
+&categoryCode=EGTR
+&categoryName=ElectronicGuitars
+###
+POST http://localhost:3000/removecategory.test.php
+Content-Type: application/x-www-form-urlencoded
+
+categoryID=100
