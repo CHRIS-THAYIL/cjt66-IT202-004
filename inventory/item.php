@@ -107,6 +107,29 @@ class Item
        $db->close();
        return $result;
    }
+   static function getItemsByCategory($categoryID)
+   {
+       $db = getDB();
+       $query = "SELECT * from items where categoryID = $categoryID";
+       $result = $db->query($query);
+       if (mysqli_num_rows($result) > 0) {
+           $items = array();
+           while ($row = $result->fetch_array(MYSQLI_ASSOC)) {
+               $item = new Item(
+                   $row['itemID'],
+                   $row['itemName'],
+                   $row['categoryID'],
+                   $row['listPrice']
+               );
+               array_push($items, $item);
+           }
+           $db->close();
+           return $items;
+       } else {
+           $db->close();
+           return NULL;
+       }
+   }
 
 }
 ?>

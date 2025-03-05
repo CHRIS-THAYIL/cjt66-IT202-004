@@ -17,5 +17,6 @@ categoryID=200
 &categoryName=ElectronicGuitars
 ###
 POST http://localhost:3000/removecategory.test.php
-Content-Type: application/x-www-form-urlencoded
+Content-Type: application/x-www-form-urlencoded 
 
+category ID=100

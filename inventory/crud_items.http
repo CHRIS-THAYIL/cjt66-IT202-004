@@ -12,7 +12,32 @@ POST http://localhost:3000/changeitem.test.php
 Content-Type: application/x-www-form-urlencoded
 
 
+itemID= 1100
+&itemName= Fender Stratocaster
+&categoryID= 110
+&listPrice= 699.00
+###
+POST http://localhost:3000/removeitem.test.php
+Content-Type: application/x-www-form-urlencoded
+
+itemID= 1200
+&itemName= Fender Precision
+&categoryID= 120
+&listPrice= 799.00
+###
+GET http://localhost:3000/listitems.test.php
+POST http://localhost:3000/changeitem.test.php
+Content-Type: application/x-www-form-urlencoded
+
+
 itemID=___
 &itemName=___
 &categoryID=___
 &listPrice=___
+###
+POST http://localhost:3000/removeitem.test.php
+Content-Type: application/x-www-form-urlencoded
+
+
+itemID= 1000
+

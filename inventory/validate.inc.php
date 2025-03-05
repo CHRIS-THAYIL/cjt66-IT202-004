@@ -5,7 +5,6 @@ $password = $_POST['password'];
 $query = "SELECT firstName, lastName FROM admins " .
         "WHERE emailAddress = ? AND password = SHA2(?,256)";
 $db = getDB();
-$stmt = $db->prepare($query);
 $stmt->bind_param("ss", $emailAddress, $password);
 $stmt->execute();
 $stmt->bind_result($firstName, $lastName);

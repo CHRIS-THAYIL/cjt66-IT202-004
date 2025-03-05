@@ -90,7 +90,8 @@ class Category
        $result = $stmt->execute();
        $db->close();
        return $result;
-   }   function removeCategory()
+   }   
+   function removeCategory()
    {
        $db = getDB();
        $query = "DELETE FROM categories WHERE categoryID = $this->categoryID";

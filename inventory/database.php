@@ -4,7 +4,7 @@
    $port = 3306;
    $dbname = 'cjt66';
    $username = 'cjt66@njit.edu';
-   $password = 'cj#NJIT20@5';
+   $password = 'cj#NJIT2&27';
    mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
    try {
        $db = new mysqli($host, $username, $password, $dbname, $port);
@@ -16,5 +16,5 @@
        echo $e->getMessage();
    }
  }
-  // getDB();
+ // getDB();
 ?>
