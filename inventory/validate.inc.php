@@ -1,6 +1,6 @@
 <?php
 require_once('database.php');
-$emailAddress = $_POST['emailAddress'];
+$emailAddress = htmlspecialchars($_POST['emailAddress']);
 $password = $_POST['password'];
 $query = "SELECT firstName, lastName FROM admins " .
         "WHERE emailAddress = ? AND password = SHA2(?,256)";
