@@ -1,0 +1,16 @@
+POST http://localhost:3000/add_guitarcategory.test.php
+Content-Type: application/x-www-form-urlencoded
+
+categoryID=600&categoryCode=FX&categoryName=Effects&aisleNumber=C2
+###
+GET http://localhost:3000/list_guitarcategories.test.php
+###
+POST http://localhost:3000/change_guitarcategory.test.php
+Content-Type: application/x-www-form-urlencoded
+
+categoryID=600&categoryCode=EFX&categoryName=EffectsPedals&aisleNumber=C3
+###
+POST http://localhost:3000/remove_guitarcategory.test.php
+Content-Type: application/x-www-form-urlencoded
+
+categoryID=600

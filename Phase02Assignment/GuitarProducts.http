@@ -1,0 +1,16 @@
+POST http://localhost:3000/add_guitarproduct.test.php
+Content-Type: application/x-www-form-urlencoded
+
+productID=3000&productCode=AMP01&productName=Marshall Amp&description=A classic guitar amplifier&categoryID=300&wholesalePrice=299.00&listPrice=399.00&stockQuantity=10
+###
+GET http://localhost:3000/list_guitarproducts.test.php
+###
+POST http://localhost:3000/change_guitarproduct.test.php
+Content-Type: application/x-www-form-urlencoded
+
+productID=3000&productCode=AMP02&productName=Marshall DSL40&description=Updated guitar amp model&categoryID=300&wholesalePrice=349.00&listPrice=449.00&stockQuantity=8
+###
+POST http://localhost:3000/remove_guitarproduct.test.php
+Content-Type: application/x-www-form-urlencoded
+
+productID=3000
