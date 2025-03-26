@@ -1,0 +1,131 @@
+body {
+    font-family: Geneva, Tahoma, sans-serif;
+    font-size: 80%;
+    background-color: #f0e6d5;
+    color: #41334a;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+ 
+ }
+ h1 {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 120%;
+    color: #41334a;
+    margin: 0px;
+    padding: 0px;
+ }
+ h2 {
+    font-family: Geneva, Tahoma, sans-serif;
+    font-size: 120%;
+    color: #41334a;
+    margin: 0px;
+    padding: 0px;
+ }
+ h3 {
+    font-family: Geneva, Tahoma, sans-serif;
+    font-size: 110%;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+ }
+ h4 {
+    font-family: Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+    color: #41334a;
+    margin: 0px;
+    padding: 0px;
+ }
+ footer {
+   font-family: Geneva, Tahoma, sans-serif;
+   font-size: 80%;
+   clear: both;
+   text-align: center;
+   background-color: #41334a;
+   color: white;
+   padding: 5px;
+   border-bottom: 3px solid #f0e6d5;
+   border-top: 3px solid #f0e6d5;
+   width: 100%;
+  }
+  
+
+main {
+   padding: 5px;
+   border-top: 3px solid #f0e6d5;
+   float: left;
+   width: 55%;
+   height: 100%;
+}
+
+main table {
+   padding: 2px;
+}
+
+main td {
+   padding: 2px;
+}
+
+header {
+   padding: 5px;
+   border-bottom: 3px solid #f0e6d5;
+   height: 40px;
+   width: 100%;
+}
+
+nav {
+   padding: 5px;
+   border-bottom: 1px solid #f0e6d5;
+   border-right: 1px solid #f0e6d5;
+   border-top: 1px solid #f0e6d5;
+   border-left: 5px solid #f0e6d5;
+   color: white;
+   background-color: #872c14;
+   width: 20%;
+}
+
+a, a:link {
+   color: #ca7834;
+  }
+  a:active {
+   color: #7c6255;
+  }
+  
+  nav a, nav a:link {
+   color: #fbd79c;
+   text-decoration: none;
+  }
+  nav a:visited {
+   color: #c59ad1;
+  }
+  nav a:hover {
+   color: #b8999a;
+  }
+  nav a:active {
+   color: #7c6255;
+  }
+  input {
+   border: 2px solid #7c6255;
+   background-color: white;
+   color: #41334a;
+   border-radius: 5px;
+  }
+  input[type=submit] {
+   font-family: Verdana, Arial, sans-serif;
+   font-size: 80%;
+  }
+  input:required:invalid {
+   border-color: #872c14;
+   background-color: #fbd79c;
+  }
+  input:required:valid {
+   border-color: #c59ad1;
+   background-color: #f0e6d5;
+  }
+  input:focus {
+   outline: none;
+   border-color: #ca7834;
+   background-color: #f1b16f;
+   box-shadow: 0 0 5px #ca7834;
+  }
+    

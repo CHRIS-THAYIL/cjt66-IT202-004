@@ -4,6 +4,8 @@ if (isset($_SESSION['login'])) {
    $categoryID = $_POST['categoryID'];
    if ((trim($categoryID) == '') or (!is_numeric($categoryID))) {
        echo "<h2>Sorry, you must enter a valid category ID number</h2>\n";
+    } else if (Category::findCategory($categoryID)) {
+        echo "<h2>Sorry, A category with the ID #$categoryID already exists</h2>\n";
    } else {
        $categoryCode =  ($_POST['categoryCode']);
        $categoryName =  ($_POST['categoryName']);

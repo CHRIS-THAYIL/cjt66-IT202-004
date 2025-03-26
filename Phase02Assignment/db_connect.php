@@ -1,5 +1,5 @@
 <?php
-$host = 'sql.njit.edu'; // Adjust if different
+$host = 'sql.njit.edu'; 
 $dbname = 'cjt66_guitarshop';
 $user = 'cjt66@njit.edu';
 $pass = 'cj#NJIT2&27';

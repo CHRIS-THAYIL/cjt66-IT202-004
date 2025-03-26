@@ -1,16 +1,24 @@
 POST http://localhost:3000/add_guitarcategory.test.php
 Content-Type: application/x-www-form-urlencoded
 
-categoryID=600&categoryCode=FX&categoryName=Effects&aisleNumber=C2
+categoryID=100&categoryCode=GTR&categoryName=Guitars&aisleNumber=A1
 ###
-GET http://localhost:3000/list_guitarcategories.test.php
-###
-POST http://localhost:3000/change_guitarcategory.test.php
+POST http://localhost:3000/add_guitarcategory.test.php
 Content-Type: application/x-www-form-urlencoded
 
-categoryID=600&categoryCode=EFX&categoryName=EffectsPedals&aisleNumber=C3
+categoryID=200&categoryCode=BAS&categoryName=Basses&aisleNumber=A2
 ###
-POST http://localhost:3000/remove_guitarcategory.test.php
+POST http://localhost:3000/add_guitarcategory.test.php
 Content-Type: application/x-www-form-urlencoded
 
-categoryID=600
+categoryID=300&categoryCode=AMP&categoryName=Amps&aisleNumber=B1
+###
+POST http://localhost:3000/add_guitarcategory.test.php
+Content-Type: application/x-www-form-urlencoded
+
+categoryID=400&categoryCode=DRM&categoryName=Drums&aisleNumber=B2
+###
+POST http://localhost:3000/add_guitarcategory.test.php
+Content-Type: application/x-www-form-urlencoded
+
+categoryID=500&categoryCode=ACC&categoryName=Accessories&aisleNumber=C1

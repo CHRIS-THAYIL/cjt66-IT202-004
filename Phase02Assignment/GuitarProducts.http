@@ -1,16 +1,19 @@
 POST http://localhost:3000/add_guitarproduct.test.php
 Content-Type: application/x-www-form-urlencoded
 
-productID=3000&productCode=AMP01&productName=Marshall Amp&description=A classic guitar amplifier&categoryID=300&wholesalePrice=299.00&listPrice=399.00&stockQuantity=10
+productID=1001&productCode=STRAT1&productName=Fender Stratocaster&description=Iconic electric guitar with a bright tone. Used by legends like Hendrix.&categoryID=100&wholesalePrice=699.00&listPrice=799.00&stockQuantity=25
 ###
-GET http://localhost:3000/list_guitarproducts.test.php
-###
-POST http://localhost:3000/change_guitarproduct.test.php
+POST http://localhost:3000/add_guitarproduct.test.php
 Content-Type: application/x-www-form-urlencoded
 
-productID=3000&productCode=AMP02&productName=Marshall DSL40&description=Updated guitar amp model&categoryID=300&wholesalePrice=349.00&listPrice=449.00&stockQuantity=8
+productID=1002&productCode=GIBLP&productName=Gibson Les Paul&description=Classic guitar with a rich, warm sound. Favored by rock guitarists.&categoryID=100&wholesalePrice=1299.00&listPrice=1499.00&stockQuantity=10
 ###
-POST http://localhost:3000/remove_guitarproduct.test.php
+POST http://localhost:3000/add_guitarproduct.test.php
 Content-Type: application/x-www-form-urlencoded
 
-productID=3000
+productID=1003&productCode=TELLY&productName=Fender Telecaster&description=Versatile guitar with a twangy tone. Great for country and rock.&categoryID=100&wholesalePrice=599.00&listPrice=699.00&stockQuantity=20
+###
+POST http://localhost:3000/add_guitarproduct.test.php
+Content-Type: application/x-www-form-urlencoded
+
+productID=2001&productCode=HOFNER&productName=Hofner Violin Bass&description=Beatle Bass with a distinctive look. Perfect for retro vibes.&categoryID=200&wholesalePrice=499.00&listPrice=599.00&stockQuantity=15

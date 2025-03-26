@@ -7,12 +7,14 @@ include("item.php");
 <html>
 <head>
    <title>Inventory Helper</title>
+   <link rel="stylesheet" type="text/css" href="ih_styles.css">
+   <link rel="icon" type="image/png" href="images/logo.png">
 </head>
 <body>
    <header>
        <?php include("header.inc.php"); ?>
    </header>
-   <section style="height: 425px;">
+   <section style="height: 375px;">
        <nav style="float: left; height: 100%;">
            <?php include("nav.inc.php"); ?>
        </nav>
