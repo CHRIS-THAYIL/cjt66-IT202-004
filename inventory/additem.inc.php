@@ -1,5 +1,5 @@
 <?php
-// include('item.php');
+
 if (isset($_SESSION['login'])) {
    $itemID = $_POST['itemID'];
    if ((trim($itemID) == '') or (!is_numeric($itemID))) {

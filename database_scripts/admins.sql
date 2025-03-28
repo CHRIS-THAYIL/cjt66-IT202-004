@@ -25,5 +25,5 @@ INSERT INTO admins
 (emailAddress, password, firstName, lastName)
 VALUES
 ('cjt66@njit.edu',
-SHA2('cj#NJIT20@5', 256), 'Taylor', 'Swift');
+SHA2('cj#NJIT20@5', 256), 'Chris', 'Thayil');
 
